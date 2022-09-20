@@ -1,0 +1,5 @@
+---
+- hosts: localmachine
+  become: yes
+  roles:
+    - adduser

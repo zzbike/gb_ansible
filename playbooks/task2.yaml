@@ -1,0 +1,6 @@
+---
+- hosts: localmachine
+  roles:
+    - mkdir
+    - touch_file
+    - download_file

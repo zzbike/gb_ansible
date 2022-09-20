@@ -1,0 +1,5 @@
+---
+- name: Get file from server with curl
+  uri:
+    url: "https://raw.githubusercontent.com/ansible/ansible/devel/README.rst"
+    dest: "/tmp/{{ dir_name }}"
