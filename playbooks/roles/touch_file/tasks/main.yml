@@ -1,0 +1,5 @@
+---
+- name: create file
+  copy: 
+    dest: "/tmp/{{ dir_name }}/{{ ansible_date_time.epoch }}"
+    content: "{{ ansible_date_time }}"

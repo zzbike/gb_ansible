@@ -1,0 +1,5 @@
+---
+- name: create directory
+  file: 
+    path: "/tmp/{{ dir_name }}" 
+    state: directory
