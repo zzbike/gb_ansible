@@ -1,0 +1,6 @@
+roles:
+  - gwenlei.wordpress-common                                    #apt-get update before install wordpress
+  - gwenlei.wordpress-mysql                                    #install mysql for wordpress
+  - gwenlei.wordpress-nginx                                    #install nginx for wordpress
+  - gwenlei.wordpress-php7                                     #install php7.0 for wordpress
+  - gwenlei.wordpress-wordpress                                #install wordpress
